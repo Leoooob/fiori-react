@@ -1,25 +1,83 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Table } from 'fundamental-react/lib/Table/Table';
+import { Button } from 'fundamental-react/lib/Button/Button';
+import { Pagination } from 'fundamental-react/lib/Pagination/Pagination';
+import { ActionBar, ActionBarActions, ActionBarHeader } from 'fundamental-react/lib/ActionBar/ActionBar';
+import NewsKey from './NewsKey.json';
 import './App.css';
 
+const tableHeaders = ['Title', 'Description', 'Author', 'Source', ''];
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      "tableData": [],
+      "count": 1,
+      "page": 1,
+      "sourceData": null
+    };
+  }
+
+  componentDidMount() {
+    this._fetchData();
+  }
+
+  _buildTableRows() {
+    const aArticles = this.state.sourceData;
+
+    const tableData = aArticles.map((oHeadline) => {
+      let sTitle = oHeadline.title;
+      let sDescription = oHeadline.description;
+      let sAuthor = oHeadline.author;
+      let sSource = oHeadline.source.name;
+      let uURL = oHeadline.url;
+      
+      let cButton = <Button option="emphasized" glyph="initiative" onClick={() => window.open(uURL, "_blank")}>Read</Button>;
+
+      let aTableRow = [sTitle, sDescription, sAuthor, sSource, cButton];
+      return {"rowData": aTableRow};
+    });
+
+    this.setState({"tableData": tableData});
+  }
+
+  _fetchData() {
+    const iPageNumber = this.state.page;
+
+    fetch(`https://newsapi.org/v2/top-headlines?country=gb&apiKey=${NewsKey.key}&pageSize=10&page=${iPageNumber}`)
+      .then((response) => response.json())
+      .then((oNews) => {
+        this.setState({"count": oNews.totalResults});
+
+        return oNews.articles;
+      })
+      //.catch((oError) => console.error("woops"))
+      .then((aArticles) => this.setState({"sourceData": aArticles}))
+      .then(()=> this._buildTableRows());
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <ActionBar>
+          <ActionBarHeader title={"Leon's Fiori App"} description={"React Edition"} />
+          <ActionBarActions>
+            <Button glyph="refresh" option="light" onClick={() => this._fetchData()}>Refresh</Button>
+          </ActionBarActions>
+        </ActionBar>
+
+        <Table
+            headers={tableHeaders}
+            tableData={this.state.tableData}>
+        </Table>
+
+        <Pagination itemsTotal={this.state.count} onClick={(e) => {
+          if (typeof e === "number") {
+            this.setState({"page": e}, () => this._fetchData());
+          }
+        }}/>
       </div>
     );
   }
