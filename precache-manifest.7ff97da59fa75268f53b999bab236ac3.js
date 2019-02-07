@@ -40,28 +40,28 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Light.7f6c7cb9.woff2"
   },
   {
-    "revision": "9b4487708ef140ace9dbc396a39bbf44",
-    "url": "/fiori-react/static/media/72-Italic.9b448770.woff"
-  },
-  {
     "revision": "85e09d643e5d4b5f98c3aaf365bd1c02",
     "url": "/fiori-react/static/media/72-Bold.85e09d64.woff2"
   },
   {
-    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
-    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
+    "revision": "9b4487708ef140ace9dbc396a39bbf44",
+    "url": "/fiori-react/static/media/72-Italic.9b448770.woff"
   },
   {
     "revision": "56af1d33fbd8bf1d80afd53f3f1d01ca",
     "url": "/fiori-react/static/media/72-CondensedBold.56af1d33.woff2"
   },
   {
-    "revision": "c5f39800983eb3eb97ed2ba72a5be4b7",
-    "url": "/fiori-react/static/media/72-Condensed.c5f39800.woff"
+    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
+    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
   },
   {
     "revision": "48cb3e07e7e509d6c81c420507d7916b",
     "url": "/fiori-react/static/media/72-Regular.48cb3e07.woff"
+  },
+  {
+    "revision": "c5f39800983eb3eb97ed2ba72a5be4b7",
+    "url": "/fiori-react/static/media/72-Condensed.c5f39800.woff"
   },
   {
     "revision": "1e678655fe64a8a126dd51619f22edde",
@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Regular.a055c920.ttf"
   },
   {
-    "revision": "317cde33cde273c643e2f4bfe788eefe",
-    "url": "/fiori-react/static/media/72-Bold.317cde33.ttf"
-  },
-  {
     "revision": "e2f76695560366054ce11dc7efc046fd",
     "url": "/fiori-react/static/media/72-Condensed.e2f76695.ttf"
+  },
+  {
+    "revision": "317cde33cde273c643e2f4bfe788eefe",
+    "url": "/fiori-react/static/media/72-Bold.317cde33.ttf"
   },
   {
     "revision": "1abad19983bc369ee086769a8d503050",
