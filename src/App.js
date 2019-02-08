@@ -60,7 +60,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app-container fd-has-margin-large">
         <ActionBar>
           <ActionBarHeader title={"Leon's Fiori App"} description={"React Edition"} />
           <ActionBarActions>

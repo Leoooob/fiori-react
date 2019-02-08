@@ -1,6 +1,5 @@
 @import '~fiori-fundamentals/dist/fiori-fundamentals.min.css';
 
-.App {
-  margin: 1rem 5rem;
+.app-container {
   text-align: center;
 }
