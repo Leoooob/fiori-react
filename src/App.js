@@ -28,15 +28,15 @@ class App extends Component {
     const aArticles = this.state.sourceData;
 
     const tableData = aArticles.map((oHeadline) => {
-      let sTitle = oHeadline.title;
-      let sDescription = oHeadline.description;
-      let sAuthor = oHeadline.author;
-      let sSource = oHeadline.source.name;
-      let uURL = oHeadline.url;
+      const sTitle = oHeadline.title;
+      const sDescription = oHeadline.description;
+      const sAuthor = oHeadline.author;
+      const sSource = oHeadline.source.name;
+      const uURL = oHeadline.url;
       
-      let cButton = <Button option="emphasized" glyph="initiative" onClick={() => window.open(uURL, "_blank")}>Read</Button>;
+      const cButton = <Button option="emphasized" glyph="initiative" onClick={() => window.open(uURL, "_blank")}>Read</Button>;
 
-      let aTableRow = [sTitle, sDescription, sAuthor, sSource, cButton];
+      const aTableRow = [sTitle, sDescription, sAuthor, sSource, cButton];
       return {"rowData": aTableRow};
     });
 
@@ -53,7 +53,7 @@ class App extends Component {
 
         return oNews.articles;
       })
-      //.catch((oError) => console.error("woops"))
+      .catch((oError) => console.error(oError))
       .then((aArticles) => this.setState({"sourceData": aArticles}))
       .then(()=> this._buildTableRows());
   }
