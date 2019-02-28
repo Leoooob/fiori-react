@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Condensed.c5f39800.woff"
   },
   {
-    "revision": "7a8bb505f979d62e8993",
+    "revision": "b05d6247ee3332c48c75",
     "url": "/fiori-react/static/css/main.4a0a38d9.chunk.css"
   },
   {
@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Bold.85e09d64.woff2"
   },
   {
-    "revision": "56af1d33fbd8bf1d80afd53f3f1d01ca",
-    "url": "/fiori-react/static/media/72-CondensedBold.56af1d33.woff2"
-  },
-  {
     "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
     "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
   },
   {
-    "revision": "7a8bb505f979d62e8993",
-    "url": "/fiori-react/static/js/main.7a8bb505.chunk.js"
+    "revision": "56af1d33fbd8bf1d80afd53f3f1d01ca",
+    "url": "/fiori-react/static/media/72-CondensedBold.56af1d33.woff2"
+  },
+  {
+    "revision": "b05d6247ee3332c48c75",
+    "url": "/fiori-react/static/js/main.b05d6247.chunk.js"
   },
   {
     "revision": "48cb3e07e7e509d6c81c420507d7916b",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/css/1.fb49d0a2.chunk.css"
   },
   {
-    "revision": "1cbd70dadd4909ada1526f4916b8fa93",
+    "revision": "dfce9f4b20ff524112379cb9598bfc7d",
     "url": "/fiori-react/index.html"
   }
 ];
