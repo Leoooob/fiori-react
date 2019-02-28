@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Regular.0072d92b.woff2"
   },
   {
-    "revision": "7f6c7cb94c0d8088b023553d46a64e07",
-    "url": "/fiori-react/static/media/72-Light.7f6c7cb9.woff2"
-  },
-  {
     "revision": "9b4487708ef140ace9dbc396a39bbf44",
     "url": "/fiori-react/static/media/72-Italic.9b448770.woff"
+  },
+  {
+    "revision": "7f6c7cb94c0d8088b023553d46a64e07",
+    "url": "/fiori-react/static/media/72-Light.7f6c7cb9.woff2"
   },
   {
     "revision": "85e09d643e5d4b5f98c3aaf365bd1c02",
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/js/main.7a8bb505.chunk.js"
   },
   {
-    "revision": "1e678655fe64a8a126dd51619f22edde",
-    "url": "/fiori-react/static/media/72-Bold.1e678655.woff"
-  },
-  {
     "revision": "48cb3e07e7e509d6c81c420507d7916b",
     "url": "/fiori-react/static/media/72-Regular.48cb3e07.woff"
   },
   {
-    "revision": "ab363ac31002ac1293658c71a84eef29",
-    "url": "/fiori-react/static/media/72-Light.ab363ac3.woff"
+    "revision": "1e678655fe64a8a126dd51619f22edde",
+    "url": "/fiori-react/static/media/72-Bold.1e678655.woff"
   },
   {
     "revision": "909707d4c2808b374157094c2950925e",
     "url": "/fiori-react/static/media/72-CondensedBold.909707d4.woff"
+  },
+  {
+    "revision": "ab363ac31002ac1293658c71a84eef29",
+    "url": "/fiori-react/static/media/72-Light.ab363ac3.woff"
   },
   {
     "revision": "c58be3ff685e0c820c8438bbf1579351",
@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Regular.a055c920.ttf"
   },
   {
-    "revision": "e2f76695560366054ce11dc7efc046fd",
-    "url": "/fiori-react/static/media/72-Condensed.e2f76695.ttf"
-  },
-  {
     "revision": "317cde33cde273c643e2f4bfe788eefe",
     "url": "/fiori-react/static/media/72-Bold.317cde33.ttf"
+  },
+  {
+    "revision": "e2f76695560366054ce11dc7efc046fd",
+    "url": "/fiori-react/static/media/72-Condensed.e2f76695.ttf"
   },
   {
     "revision": "1abad19983bc369ee086769a8d503050",
