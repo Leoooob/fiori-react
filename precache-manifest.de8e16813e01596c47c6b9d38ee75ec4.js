@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Condensed.c5f39800.woff"
   },
   {
-    "revision": "ef58a38b79c4a7861eb3",
+    "revision": "f2ebbd5d6cb0540f8c30",
     "url": "/fiori-react/static/css/main.4a0a38d9.chunk.css"
   },
   {
@@ -44,10 +44,6 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Light.7f6c7cb9.woff2"
   },
   {
-    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
-    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
-  },
-  {
     "revision": "85e09d643e5d4b5f98c3aaf365bd1c02",
     "url": "/fiori-react/static/media/72-Bold.85e09d64.woff2"
   },
@@ -56,16 +52,20 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-CondensedBold.56af1d33.woff2"
   },
   {
-    "revision": "ef58a38b79c4a7861eb3",
-    "url": "/fiori-react/static/js/main.ef58a38b.chunk.js"
+    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
+    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
   },
   {
-    "revision": "48cb3e07e7e509d6c81c420507d7916b",
-    "url": "/fiori-react/static/media/72-Regular.48cb3e07.woff"
+    "revision": "f2ebbd5d6cb0540f8c30",
+    "url": "/fiori-react/static/js/main.f2ebbd5d.chunk.js"
   },
   {
     "revision": "1e678655fe64a8a126dd51619f22edde",
     "url": "/fiori-react/static/media/72-Bold.1e678655.woff"
+  },
+  {
+    "revision": "48cb3e07e7e509d6c81c420507d7916b",
+    "url": "/fiori-react/static/media/72-Regular.48cb3e07.woff"
   },
   {
     "revision": "909707d4c2808b374157094c2950925e",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/css/1.fb49d0a2.chunk.css"
   },
   {
-    "revision": "8ffe17e485531fa68fd3bb81873da0f7",
+    "revision": "9105f69bbf78cd4d065ec39b59bbfbe0",
     "url": "/fiori-react/index.html"
   }
 ];
