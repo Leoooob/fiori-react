@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Condensed.c5f39800.woff"
   },
   {
-    "revision": "b05d6247ee3332c48c75",
+    "revision": "ef58a38b79c4a7861eb3",
     "url": "/fiori-react/static/css/main.4a0a38d9.chunk.css"
   },
   {
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-Light.7f6c7cb9.woff2"
   },
   {
+    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
+    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
+  },
+  {
     "revision": "85e09d643e5d4b5f98c3aaf365bd1c02",
     "url": "/fiori-react/static/media/72-Bold.85e09d64.woff2"
   },
@@ -52,12 +56,8 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/72-CondensedBold.56af1d33.woff2"
   },
   {
-    "revision": "1f13fc6d938b5cda6bde9229f722ea8c",
-    "url": "/fiori-react/static/media/72-BoldItalic.1f13fc6d.woff"
-  },
-  {
-    "revision": "b05d6247ee3332c48c75",
-    "url": "/fiori-react/static/js/main.b05d6247.chunk.js"
+    "revision": "ef58a38b79c4a7861eb3",
+    "url": "/fiori-react/static/js/main.ef58a38b.chunk.js"
   },
   {
     "revision": "48cb3e07e7e509d6c81c420507d7916b",
@@ -88,16 +88,16 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/media/SAP-icons.c1ba0da7.woff"
   },
   {
-    "revision": "e2f76695560366054ce11dc7efc046fd",
-    "url": "/fiori-react/static/media/72-Condensed.e2f76695.ttf"
+    "revision": "a055c920fa3948666fc4412d72aa94f3",
+    "url": "/fiori-react/static/media/72-Regular.a055c920.ttf"
   },
   {
     "revision": "317cde33cde273c643e2f4bfe788eefe",
     "url": "/fiori-react/static/media/72-Bold.317cde33.ttf"
   },
   {
-    "revision": "a055c920fa3948666fc4412d72aa94f3",
-    "url": "/fiori-react/static/media/72-Regular.a055c920.ttf"
+    "revision": "e2f76695560366054ce11dc7efc046fd",
+    "url": "/fiori-react/static/media/72-Condensed.e2f76695.ttf"
   },
   {
     "revision": "1abad19983bc369ee086769a8d503050",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/fiori-react/static/css/1.fb49d0a2.chunk.css"
   },
   {
-    "revision": "dfce9f4b20ff524112379cb9598bfc7d",
+    "revision": "8ffe17e485531fa68fd3bb81873da0f7",
     "url": "/fiori-react/index.html"
   }
 ];
