@@ -6,6 +6,7 @@ import { ActionBar, ActionBarActions, ActionBarHeader } from 'fundamental-react/
 import NewsKey from './NewsKey.json';
 import './App.css';
 
+const iPageSize = 10;
 const tableHeaders = ['Title', 'Description', 'Author', 'Source', ''];
 
 class App extends Component {
@@ -46,7 +47,7 @@ class App extends Component {
   _fetchData() {
     const iPageNumber = this.state.page;
 
-    fetch(`https://newsapi.org/v2/top-headlines?country=gb&apiKey=${NewsKey.key}&pageSize=10&page=${iPageNumber}`)
+    fetch(`https://newsapi.org/v2/top-headlines?country=gb&apiKey=${NewsKey.key}&pageSize=${iPageSize}&page=${iPageNumber}`)
       .then((response) => response.json())
       .then((oNews) => {
         this.setState({"count": oNews.totalResults});
@@ -73,7 +74,7 @@ class App extends Component {
             tableData={this.state.tableData}>
         </Table>
 
-        <Pagination itemsTotal={this.state.count} onClick={(e) => {
+        <Pagination itemsPerPage={iPageSize} itemsTotal={this.state.count} onClick={(e) => {
           if (typeof e === "number") {
             this.setState({"page": e}, () => this._fetchData());
           }
