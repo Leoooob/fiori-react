@@ -34,7 +34,7 @@ class App extends Component {
       const sSource = oHeadline.source.name;
       const uURL = oHeadline.url;
       
-      const cButton = <Button option="emphasized" glyph="initiative" onClick={() => window.open(uURL, "_blank")}>Read</Button>;
+      const cButton = <Button option="emphasized" glyph="initiative" onClick={() => window.open(uURL, "_blank", "noopener")}>Read</Button>;
 
       const aTableRow = [sTitle, sDescription, sAuthor, sSource, cButton];
       return {"rowData": aTableRow};
@@ -62,7 +62,7 @@ class App extends Component {
     return (
       <div className="app-container fd-has-margin-large">
         <ActionBar>
-          <ActionBarHeader title={"Leon's Fiori App"} description={"React Edition"} />
+          <ActionBarHeader title="Leon's Fiori App" description="React Edition" />
           <ActionBarActions>
             <Button glyph="refresh" option="light" onClick={() => this._fetchData()}>Refresh</Button>
           </ActionBarActions>
